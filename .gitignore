@@ -1,0 +1,18 @@
+# jetbrains' ides
+.idea/
+
+# vscode
+.vscode/
+
+# ignore ALL .cmake, .a, .dll files
+*.cmake
+*.a
+*.dll
+
+# ignore Makefile and CMakeCache.txt
+Makefile
+CMakeCache.txt
+
+# ignore ALL files in ANY directory named build or CMakeFiles
+build/
+CMakeFiles/
